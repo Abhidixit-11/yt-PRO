@@ -9,4 +9,4 @@ except RuntimeError:
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
 
-genai.configure(api_key=st.secrets["AQ.Ab8RN6IkIlV3S10-cDuPEkhsSbYaqlYS9QbsXdjgRSajgPFE7w"])
+genai.configure(api_key=st.secrets["API_KEY"])
